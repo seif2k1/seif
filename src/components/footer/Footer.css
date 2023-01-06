@@ -1,0 +1,27 @@
+.footer-items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-items ul{
+    list-style:none;
+    padding:0;
+}
+.footer-items ul li{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.footer-items div ul li .bi {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: row;
+    width: 35px;
+    height: 35px;
+    margin-right: 20px;
+}
+.footer-copy{
+    width: 50%;
+}

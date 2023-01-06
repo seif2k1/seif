@@ -1,0 +1,12 @@
+#virtual-compare,#virtual-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-transform: capitalize;
+    position: relative;
+}
+#virtual-content .virtual-footer img {
+    margin:20px 0;
+    width: 40%;
+    cursor: pointer;
+}
